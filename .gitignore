@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Google API 인증 파일 (중요!)
+credentials.json
+token.json
+service-account.json
+*.json
+!package.json
+
+# 결과 파일
+results/
+output/
+*.xlsx
+!이화방어검사채점표\ 수정.xlsx
+!테스트/이화방어검사채점표\ 수정.xlsx
+
+# 테스트 데이터
+test_data/
+temp/
+tmp/
+
+# 로그 파일
+*.log
+logs/
+
+# 환경 변수
+.env
+.env.local
+
+# PDF 샘플 (선택적)
+# *.pdf
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
