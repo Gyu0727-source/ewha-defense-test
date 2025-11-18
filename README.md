@@ -112,6 +112,8 @@ python3 src/edmt_automation.py \
 ```
 ewha-defense-test/
 ├── README.md                              # 프로젝트 설명서
+├── VALIDATION_REPORT.md                   # 검증 리포트
+├── SAMPLE_RESULT.md                       # 결과지 샘플
 ├── requirements.txt                       # Python 의존성
 ├── .gitignore                             # Git 제외 파일
 ├── .env.example                           # 환경 변수 예제
@@ -128,7 +130,7 @@ ewha-defense-test/
     │   ├── EDMT_사용자_가이드.md          # 상세 사용 가이드
     │   ├── 작업로그_2025-10-17.md        # 개발 로그
     │   └── edmt_questions.csv             # 200개 문항 데이터
-    ├── 샘플/                              # 샘플 PDF 파일들
+    ├── 샘플/                              # 실제 참여자 결과 샘플 (엑셀, PDF)
     └── 이화방어기제 검사지.pdf            # 원본 검사지
 ```
 
